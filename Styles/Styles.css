@@ -6,3 +6,63 @@
     height: 200px;
     background-color: #D9D9D9;
 }
+
+.Helvetica_Neue{
+    font-family: Helvetica, sans-serif;
+}
+
+.container_grid{
+    display: grid;
+    grid-template: 300px 700px/ 50% 50%;
+
+
+}
+
+.item1{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.item2{
+    grid-column: 1;
+    grid-row: 2;
+
+}
+
+.item3{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.item4{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.cadet_blue{
+    background-color: cadetblue;
+    font-weight: bold;
+}
+
+.red{
+    background-color: rgb(197, 0, 0);
+    font-weight: bold;
+}
+
+.green{
+    background-color: rgb(142, 255, 116);
+    font-weight: bold;
+}
+
+.blue{
+    background-color: rgb(158, 215, 255);
+    font-weight: bold;
+}
+
+.grey{
+    background-color: grey;
+}
+
+.lightgrey{
+    background-color: lightgray;
+}
